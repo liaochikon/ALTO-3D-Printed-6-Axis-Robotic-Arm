@@ -1,0 +1,15 @@
+import alto
+
+alto_6_axis = alto.Alto(6, com_port="COM10")
+alto_6_axis.Alto_Operate()
+alto_6_axis.Alto_Stop()
+alto_6_axis.Alto_Set_Speed(100)
+alto_6_axis.Alto_Set_Acc(80)
+alto_6_axis.Alto_Set_Mov(alto.Joint)
+alto_6_axis.Alto_Set_Joint_Angle(1, 0)
+alto_6_axis.Alto_Set_Joint_Angle(2, 0)
+alto_6_axis.Alto_Set_Joint_Angle(3, 0)
+alto_6_axis.Alto_Set_Joint_Angle(4, 0)
+alto_6_axis.Alto_Set_Joint_Angle(5, 0)
+alto_6_axis.Alto_Set_Joint_Angle(6, 0)
+alto_6_axis.Alto_Start()

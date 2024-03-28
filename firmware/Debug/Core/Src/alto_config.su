@@ -1,0 +1,6 @@
+../Core/Src/alto_config.c:23:6:Robot_Config_Init	24	static
+../Core/Src/alto_config.c:136:6:Emm_Request_Handle_Init	16	static
+../Core/Src/alto_config.c:142:6:PushBack	24	static
+../Core/Src/alto_config.c:151:9:CLK_Delta_Total	24	static
+../Core/Src/alto_config.c:161:7:AngleRaw_to_Angle	16	static
+../Core/Src/alto_config.c:166:9:Angle_to_Step	16	static

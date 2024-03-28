@@ -1,0 +1,10 @@
+../Core/Src/Emm_can.c:9:6:CAN_Send_Cmd	32	static
+../Core/Src/Emm_can.c:42:6:Get_Angle_Request	24	static
+../Core/Src/Emm_can.c:51:6:Get_Step_Request	24	static
+../Core/Src/Emm_can.c:60:6:Get_Error_Request	24	static
+../Core/Src/Emm_can.c:69:6:Get_Flag_Request	24	static
+../Core/Src/Emm_can.c:78:6:Stepper_Set_Zero	24	static
+../Core/Src/Emm_can.c:88:6:Stepper_Disable_Block	24	static
+../Core/Src/Emm_can.c:98:6:Stepper_Enable_Control	24	static
+../Core/Src/Emm_can.c:110:6:Stepper_Position_Control	24	static
+../Core/Src/Emm_can.c:147:6:Stepper_Stop	24	static

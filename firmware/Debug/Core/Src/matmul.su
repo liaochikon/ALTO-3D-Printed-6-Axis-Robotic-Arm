@@ -1,0 +1,13 @@
+../Core/Src/matmul.c:9:6:Mat4x4_Init	24	static
+../Core/Src/matmul.c:20:6:Mat3x3_Init	24	static
+../Core/Src/matmul.c:32:6:Vec_Init	24	static
+../Core/Src/matmul.c:39:6:Vec3_Init	16	static
+../Core/Src/matmul.c:44:6:Mat4x4_Mul	40	static
+../Core/Src/matmul.c:60:6:Mat3x3_Mul	40	static
+../Core/Src/matmul.c:77:6:Mat3x3_Vec3_Mul	40	static
+../Core/Src/matmul.c:91:6:Mat4x4_Vec4_Mul	40	static
+../Core/Src/matmul.c:105:6:Mat4x4_I	24	static
+../Core/Src/matmul.c:114:6:Mat3x3_I	24	static
+../Core/Src/matmul.c:124:6:Mat4x4_Copy	24	static
+../Core/Src/matmul.c:135:6:Mat3x3_Copy	24	static
+../Core/Src/matmul.c:147:6:Mat3x3_T	24	static
