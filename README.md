@@ -1,7 +1,7 @@
 # ALTO 3D Printed Desktop 6 Axis Robotic Arm (WIP)
 
 ## Introduction
-ALTO is the 3D printed robotic arm project I've been working on.
+ALTO is a 3D printed robotic arm project I've been working on.
 
 The design was heavily inspired by these following projects:
 
@@ -38,7 +38,7 @@ alto_6_axis.Alto_Operate()
 
 The design of the robot is reference from generic industrial robot, such as [Yasakawa AR1440](https://www.motoman.com/en-us/products/robots/industrial/welding-cutting/ar-series/ar1440) or [Kuka KR CYBERTECH nano](https://www.kuka.com/en-de/products/robot-systems/industrial-robots/kr-cybertech-nano)
 
-The first 3 joints of the robot used NEMA17 stepper motor and CSF-11 gearbox as their joint unit, and the 3 joints were also installed with crossed roller bearings to reduce to vibration and deformation.
+The first 3 joints of the robot used NEMA17 stepper motor and CSF-11 gearbox as the joint unit, and the 3 joints were also installed with crossed roller bearings to reduce to vibration and deformation.
 
 3 wrist joints used NEMA14 stepper motor and CSF-8 gearbox, which make the wrist joints lighter and more compact.
 
@@ -55,7 +55,7 @@ The detail of each joint can be found in the table below.
 |Bearing        |Rb-4510   |Rb-4510   |Rb-3510   |None      |None      |None      |
 |Rotation limit |-180°~180°|-90°~90°  |-90°~90°  |-180°~180°|-120°~120°|-180°~180°|
 
-All of the component that you need to build the robot is shown in the **BOM**(bill of material) in **hardware** folder, including the part's name and quantity.
+All of the component that you need to build the robot is shown in the **BOM**(bill of material) in **hardware** folder.
 
 Some of the parts were relatively more expensive, like harmonic drives.
 
@@ -69,7 +69,7 @@ Which is a pretty good deal in my opinion.
 
 ### Preparation
 
-The code of the controll box ([STM32F407VG](https://www.st.com/en/evaluation-tools/stm32f4discovery.html"link")) can be found in the **firmware** folder.
+The code of the control box ([STM32F407VG](https://www.st.com/en/evaluation-tools/stm32f4discovery.html"link")) can be found in the **firmware** folder.
 
 [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) is needed to open the **.project** file.
 
@@ -97,7 +97,7 @@ Further details can be found inside the src files.
 ## API
 
 ### Serial Command
-Robot can be connected to computer via USB, so any serial communication tool like [hterm](https://www.der-hammer.info/pages/terminal.html) can be used to control the robot. 
+Robot can be connected to computer via USB, so you used any serial communication tool like [hterm](https://www.der-hammer.info/pages/terminal.html) to control the robot. 
 
 The command reference file **alto_command.xlsx** is located inside **software** folder.
 
