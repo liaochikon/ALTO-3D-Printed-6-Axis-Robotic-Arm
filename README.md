@@ -1,4 +1,4 @@
-# ALTO 3D Printed Desktop 6 Axis Robotic Arm (WIP)
+# ALTO 3D Printed 6 Axis Robotic Arm (WIP)
 
 ## Introduction
 ALTO is a 3D printed robotic arm project I've been working on.
